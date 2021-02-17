@@ -1,7 +1,7 @@
 ---
 dbtVersion: 0.18.1
 jobs:
-- name: sdfsdf
-  schedule: '444444'
 - name: '8765432'
   schedule: mnbvcx
+- name: sdfsdf
+  schedule: '444444'
