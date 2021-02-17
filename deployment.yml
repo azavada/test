@@ -4,4 +4,4 @@ jobs:
 - name: name
   schedule: "* * * * *"
 - name: name
-  schedule: '23232323'
+  schedule: 23232323s
