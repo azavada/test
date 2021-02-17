@@ -3,5 +3,3 @@ dbtVersion: 0.18.1
 jobs:
 - name: name
   schedule: 23232323s
-- name: name
-  schedule: 23232323s
