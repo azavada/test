@@ -3,5 +3,5 @@ dbtVersion: 0.18.1
 jobs:
 - name: name2222222
   schedule:
-- name: name1
+- name: name
   schedule: "* * * * *"
