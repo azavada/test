@@ -1,0 +1,10 @@
+---
+:dbtVersion: 0.18.1
+:jobs:
+- :name: daily
+  :schedule: 0 12 * * *
+  :steps:
+  - :name: run models
+    :command: dbt run --models my_first_model my_second_model
+- :name: nightly
+  :schedule: 0 0 * * *
