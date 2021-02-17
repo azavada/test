@@ -5,5 +5,3 @@ jobs:
   schedule: 23232323s
 - name: name
   schedule: 23232323s
-- name: name
-  schedule: 23232323s
