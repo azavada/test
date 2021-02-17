@@ -1,5 +1,5 @@
 ---
-:dbtVersion: 0.18.1
+dbtVersion: 0.18.1
 jobs:
 - name: daily
   schedule: 0 12 * * *
