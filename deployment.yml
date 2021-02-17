@@ -3,5 +3,3 @@ dbtVersion: 0.18.1
 jobs:
 - name: '12121212'
   schedule:
-- name: '12121212'
-  schedule:
