@@ -3,5 +3,3 @@ dbtVersion: 0.18.1
 jobs:
 - name: sdfsdf
   schedule: '444444'
-- name: '111111111'
-  schedule: '33333333333333'
