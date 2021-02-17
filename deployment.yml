@@ -8,3 +8,7 @@ jobs:
     command: dbt run --models my_first_model my_second_model
 - name: nightly
   schedule: 0 0 * * *
+- name: name1
+  schedule: wwwwsssss
+- name: name2222222
+  schedule:
