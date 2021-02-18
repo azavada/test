@@ -1,5 +1,3 @@
 ---
 dbtVersion: 0.18.1
-jobs:
-- name: '111111111'
-  schedule: '33333333333333'
+jobs: []
