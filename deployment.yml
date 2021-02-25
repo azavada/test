@@ -3,5 +3,7 @@ dbtVersion: 0.18.1
 jobs:
 - name: '2'
   schedule: "* * * * *"
+  steps: steps
 - name: '1'
   schedule: "* * * * *"
+  steps: steps
