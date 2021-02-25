@@ -1,12 +1,12 @@
 ---
 packages:
-- package: '22222222'
-  version: '333333333'
-- package: '22222222'
-  version: '333333333'
-- package: '22222222'
-  version: '333333333'
-- package: '22222222'
-  version: '333333333'
-- package: '22222222'
-  version: '333333333'
+- package: fivetran/zendesk
+  version: 0.1.1
+- package: fivetran/salesforce
+  version: 0.3.0
+- package: fivetran/shopify
+  version: 0.2.0
+- package: fivetran/stripe
+  version: 0.2.1
+- package: fivetran/twitter_ads
+  version: 0.1.1
