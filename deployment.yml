@@ -21,13 +21,13 @@ jobs:
   steps:
   - name: run dependencies
     command: dbt deps
-  - name: run salesforce
+  - name: 'run '
     command: dbt run --models fivetran/salesforce
-  - name: run shopify
+  - name: 'run '
     command: dbt run --models fivetran/shopify
-  - name: run stripe
+  - name: 'run '
     command: dbt run --models fivetran/stripe
-  - name: run twitter ads
+  - name: 'run '
     command: dbt run --models fivetran/twitter_ads
-  - name: run zendesk support
+  - name: 'run '
     command: dbt run --models fivetran/zendesk
