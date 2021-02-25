@@ -1,23 +1,16 @@
 ---
 packages:
 - package: fivetran/zendesk
-  version: 0.1.1
-- ''
+  version: 0.1.1/n
 - package: fivetran/salesforce
-  version: 0.3.0
-- ''
+  version: 0.3.0/n
 - package: fivetran/shopify
-  version: 0.2.0
-- ''
+  version: 0.2.0/n
 - package: fivetran/stripe
-  version: 0.2.1
-- ''
+  version: 0.2.1/n
 - package: fivetran/twitter_ads
-  version: 0.1.1
-- ''
+  version: 0.1.1/n
 - package: fivetran/pinterest
-  version: 0.2.1
-- ''
+  version: 0.2.1/n
 - package: fivetran/quickbooks
-  version: 0.1.2
-- ''
+  version: 0.1.2/n
