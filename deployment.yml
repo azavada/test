@@ -6,28 +6,28 @@ jobs:
   steps:
   - name: run dependencies
     command: dbt deps
-  - name: run Zendesk Support
+  - name: run zendesk support
     command: dbt run --models fivetran/zendesk
-  - name: run Salesforce
+  - name: run salesforce
     command: dbt run --models fivetran/salesforce
-  - name: run Shopify
+  - name: run shopify
     command: dbt run --models fivetran/shopify
-  - name: run Stripe
+  - name: run stripe
     command: dbt run --models fivetran/stripe
-  - name: run Twitter Ads
+  - name: run twitter ads
     command: dbt run --models fivetran/twitter_ads
 - name: '2'
   schedule: "* * * * *"
   steps:
   - name: run dependencies
     command: dbt deps
-  - name: run Salesforce
+  - name: run salesforce
     command: dbt run --models fivetran/salesforce
-  - name: run Shopify
+  - name: run shopify
     command: dbt run --models fivetran/shopify
-  - name: run Stripe
+  - name: run stripe
     command: dbt run --models fivetran/stripe
-  - name: run Twitter Ads
+  - name: run twitter ads
     command: dbt run --models fivetran/twitter_ads
-  - name: run Zendesk Support
+  - name: run zendesk support
     command: dbt run --models fivetran/zendesk
