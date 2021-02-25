@@ -21,13 +21,11 @@ jobs:
   steps:
   - name: run dependencies
     command: dbt deps
-  - name: 'run '
+  - name: run salesforce
     command: dbt run --models fivetran/salesforce
-  - name: 'run '
+  - name: run shopify
     command: dbt run --models fivetran/shopify
-  - name: 'run '
-    command: dbt run --models fivetran/stripe
-  - name: 'run '
-    command: dbt run --models fivetran/twitter_ads
-  - name: 'run '
-    command: dbt run --models fivetran/zendesk
+  - name: run pinterest ads
+    command: dbt run --models fivetran/pinterest
+  - name: run quickbooks
+    command: dbt run --models fivetran/quickbooks
