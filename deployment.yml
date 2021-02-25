@@ -6,13 +6,13 @@ jobs:
   steps:
   - name: version
     command: dbt --version
-  - name: Zendesk Support
+  - name: run zendesk support
     command: dbt run --models fivetran/zendesk
-  - name: Salesforce
+  - name: run salesforce
     command: dbt run --models fivetran/salesforce
-  - name: Shopify
+  - name: run shopify
     command: dbt run --models fivetran/shopify
-  - name: Stripe
+  - name: run stripe
     command: dbt run --models fivetran/stripe
-  - name: Twitter Ads
+  - name: run twitter ads
     command: dbt run --models fivetran/twitter_ads
