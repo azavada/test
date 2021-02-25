@@ -16,3 +16,18 @@ jobs:
     command: dbt run --models fivetran/stripe
   - name: run twitter ads
     command: dbt run --models fivetran/twitter_ads
+- name: '2'
+  schedule: "* * * * *"
+  steps:
+  - name: run dependencies
+    command: dbt deps
+  - name: 'run '
+    command: dbt run --models fivetran/salesforce
+  - name: 'run '
+    command: dbt run --models fivetran/shopify
+  - name: 'run '
+    command: dbt run --models fivetran/stripe
+  - name: 'run '
+    command: dbt run --models fivetran/twitter_ads
+  - name: 'run '
+    command: dbt run --models fivetran/zendesk
