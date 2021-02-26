@@ -6,3 +6,8 @@ jobs:
   steps:
   - name: version
     command: dbt --version
+- name: aaa
+  schedule: "* * * * * "
+  steps:
+  - name: version
+    command: dbt --version
