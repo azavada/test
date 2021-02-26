@@ -4,7 +4,5 @@ jobs:
 - name: test
   schedule: "* * * * *"
   steps:
-  - name: run dependencies
-    command: dbt deps
-  - name: run google ads
-    command: dbt run --models google_ads
+  - name: version
+    command: dbt --version
