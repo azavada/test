@@ -4,8 +4,10 @@ jobs:
 - name: test
   schedule: "* * * * *"
   steps:
-  - name: version
-    command: dbt --version
+  - name: run dependencies
+    command: dbt deps
+  - name: run asana
+    command: dbt run --models asana
 - name: aaa
   schedule: "* * * * * "
   steps:
