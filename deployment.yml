@@ -10,3 +10,5 @@ jobs:
     command: dbt run --models asana
   - name: run github
     command: dbt run --models github
+  - name: run intercom
+    command: dbt run --models intercom
