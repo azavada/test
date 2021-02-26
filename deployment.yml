@@ -1,3 +1,14 @@
 ---
 dbtVersion: 0.18.1
-jobs: []
+jobs:
+- name: asd
+  schedule: "* * * * *"
+  steps:
+  - name: run dependencies
+    command: dbt deps
+  - name: run asana
+    command: dbt run --models asana
+  - name: run hubspot
+    command: dbt run --models hubspot
+  - name: run twitter ads
+    command: dbt run --models twitter_ads
