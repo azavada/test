@@ -1,8 +1,3 @@
 ---
 dbtVersion: 0.18.1
-jobs:
-- name: '2222'
-  schedule: "* * * * *"
-  steps:
-  - name: version
-    command: dbt --version
+jobs: []
