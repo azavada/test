@@ -1,2 +1,12 @@
 ---
-packages: []
+packages:
+- package: fivetran/asana
+  version: 0.2.0
+- package: fivetran/fivetran_log
+  version: 0.2.1
+- package: fivetran/github
+  version: 0.2.1
+- package: fivetran/google_ads
+  version: 0.1.1
+- package: fivetran/hubspot
+  version: 0.2.0
