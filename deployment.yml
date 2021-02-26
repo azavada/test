@@ -1,7 +1,7 @@
 ---
 dbtVersion: 0.18.1
 jobs:
-- name: test
+- name: '1111'
   schedule: "* * * * *"
   steps:
   - name: run dependencies
