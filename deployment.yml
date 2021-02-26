@@ -4,7 +4,5 @@ jobs:
 - name: test
   schedule: "* * * * *"
   steps:
-  - name: run dependencies
-    command: dbt deps
-  - name: run fivetran log
-    command: dbt run --models fivetran_log
+  - name: version
+    command: dbt --version
