@@ -9,5 +9,7 @@ jobs:
 - name: aaa
   schedule: "* * * * * "
   steps:
-  - name: version
-    command: dbt --version
+  - name: run dependencies
+    command: dbt deps
+  - name: run fivetran log
+    command: dbt run --models fivetran_log
