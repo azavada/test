@@ -4,7 +4,5 @@ jobs:
 - name: '2222'
   schedule: "* * * * *"
   steps:
-  - name: run dependencies
-    command: dbt deps
-  - name: run asana
-    command: dbt run --models asana
+  - name: version
+    command: dbt --version
