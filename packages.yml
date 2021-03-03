@@ -1,2 +1,12 @@
 ---
-packages: []
+packages:
+- package: fivetran/github
+  version: 0.2.1
+- package: fivetran/hubspot
+  version: 0.2.0
+- package: fivetran/google_ads
+  version: 0.1.1
+- package: fivetran/intercom
+  version: 0.1.2
+- package: fivetran/jira
+  version: 0.1.4
