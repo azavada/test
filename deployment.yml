@@ -16,3 +16,8 @@ jobs:
     command: dbt run --models intercom
   - name: run jira
     command: dbt run --models jira
+- name: '1'
+  schedule: "* * * * * "
+  steps:
+  - name: version
+    command: dbt --version
