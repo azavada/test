@@ -2,7 +2,7 @@
 dbtVersion: 0.18.1
 jobs:
 - name: '1'
-  schedule: 0 0 00 1/1 * ?
+  schedule: 0 0 00 ? * MON,FRI,TUE,SAT,SUN,THU,WED
   steps:
   - name: version
     command: dbt --version
