@@ -19,3 +19,5 @@ jobs:
     command: dbt run --models hubspot
   - name: run quickbooks
     command: dbt run --models quickbooks
+  - name: run fivetran log
+    command: dbt run --models fivetran_log
