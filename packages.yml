@@ -2,5 +2,3 @@
 packages:
 - package: fivetran/fivetran_log
   version: 0.2.1
-- package: fivetran/asana
-  version: 0.2.0
