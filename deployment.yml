@@ -1,27 +1,8 @@
 ---
 dbtVersion: 0.18.1
 jobs:
-- name: '1'
-  schedule: 0 0 00 1 1/1 ?
-  steps:
-  - name: run dependencies
-    command: dbt deps
-  - name: run asana
-    command: dbt run --models asana
-  - name: run hubspot
-    command: dbt run --models hubspot
-  - name: run quickbooks
-    command: dbt run --models quickbooks
 - name: '2'
   schedule: "* * * * *"
   steps:
-  - name: run dependencies
-    command: dbt deps
-  - name: run asana
-    command: dbt run --models asana
-  - name: run hubspot
-    command: dbt run --models hubspot
-  - name: run quickbooks
-    command: dbt run --models quickbooks
-  - name: run fivetran log
-    command: dbt run --models fivetran_log
+  - name: version
+    command: dbt --version
