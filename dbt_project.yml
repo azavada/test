@@ -22,3 +22,5 @@ clean-targets:
 vars:
   fivetran log_source:
     fivetran log_schema: fivetran_log
+  hubspot_source:
+    hubspot_schema: fivetran_hubspot
