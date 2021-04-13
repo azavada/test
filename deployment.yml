@@ -13,8 +13,6 @@ jobs:
   steps:
   - name: run dependencies
     command: dbt deps
-  - name: run quickbooks
-    command: dbt run --models quickbooks
   - name: run asana
     command: dbt run --models asana
   - name: run fivetran log
