@@ -10,8 +10,6 @@ jobs:
     command: dbt run --models asana
   - name: run fivetran log
     command: dbt run --models fivetran_log
-  - name: run quickbooks
-    command: dbt run --models quickbooks
 - name: '2'
   schedule: "* * * * *"
   steps:
