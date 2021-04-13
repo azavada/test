@@ -21,3 +21,5 @@ jobs:
     command: dbt run --models quickbooks
   - name: run asana
     command: dbt run --models asana
+  - name: run fivetran log
+    command: dbt run --models fivetran_log
