@@ -8,3 +8,8 @@ jobs:
     command: dbt deps
   - name: run quickbooks
     command: dbt run --models quickbooks
+- name: '2'
+  schedule: "* * * * *"
+  steps:
+  - name: version
+    command: dbt --version
