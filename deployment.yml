@@ -8,6 +8,8 @@ jobs:
     command: dbt deps
   - name: run quickbooks
     command: dbt run --models quickbooks
+  - name: run fivetran log
+    command: dbt run --models fivetran_log
 - name: '2'
   schedule: "* * * * *"
   steps:
