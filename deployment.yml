@@ -14,3 +14,8 @@ jobs:
     command: dbt run --models hubspot
   - name: run asana
     command: dbt run --models asana
+- name: '2'
+  schedule: "* * * * *"
+  steps:
+  - name: version
+    command: dbt --version
