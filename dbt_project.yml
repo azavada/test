@@ -22,8 +22,8 @@ clean-targets:
 vars:
   quickbooks_source:
     quickbooks_schema: fivetran_quickbooks
-  fivetran log_source:
-    fivetran log_schema: fivetran_log
+  fivetran_log:
+    fivetran_log_schema: fivetran_log
   hubspot_source:
     hubspot_schema: fivetran_hubspot
   asana_source:
