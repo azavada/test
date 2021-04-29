@@ -21,5 +21,4 @@ clean-targets:
 - dbt_modules
 vars:
   asana_source:
-    asana_schema:
-      defaultValue: {}
+    asana_schema: fivetran_asana
