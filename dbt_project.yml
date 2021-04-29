@@ -20,6 +20,5 @@ clean-targets:
 - target
 - dbt_modules
 vars:
-  quickbooks_source:
-    quickbooks_schema:
-      defaultValue:
+  asana_source:
+    asana_schema: fivetran_asana
