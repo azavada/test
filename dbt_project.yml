@@ -33,4 +33,4 @@ vars:
     using_invoices: false
     using_payment_method: false
     using_subscriptions: false
-models: {}
+models:
