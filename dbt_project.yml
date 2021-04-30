@@ -24,6 +24,8 @@ vars:
     asana_schema: fivetran_asana
   fivetran_log:
     fivetran_log_schema: fivetran_log
+    fivetran_log_using_transformations: false
+    fivetran_log_using_triggers: false
   hubspot_source:
     hubspot_schema: fivetran_hubspot
   quickbooks_source:
