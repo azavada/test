@@ -20,8 +20,5 @@ clean-targets:
 - target
 - dbt_modules
 vars:
-  asana_source:
-    asana_schema:
-    ad_reporting__pinterest_enabled:
-  quickbooks_source:
-    quickbooks_schema:
+  asana_source: {}
+  quickbooks_source: {}
