@@ -30,3 +30,6 @@ vars:
     quickbooks_schema: fivetran_quickbooks
   stripe_source:
     stripe_schema: fivetran_stripe
+models:
+  asana_source:
+    asana_schema: fivetran_asana121212
