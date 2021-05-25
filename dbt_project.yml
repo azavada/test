@@ -22,3 +22,7 @@ clean-targets:
 vars:
   asana_source:
     asana_schema: just_asana_schema
+    is_active: true
+models:
+  asana_source:
+    materialized: table
