@@ -25,7 +25,7 @@ vars:
     fivetran_log_using_transformations: false
     fivetran_log_using_triggers: true
   asana_source:
-    asana_schema: fivetran_asana1111
+    asana_schema: just_asana_schema
     is_active: true
 models:
   asana_source:
