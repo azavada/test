@@ -10,10 +10,3 @@ jobs:
     command: dbt run --models fivetran_log --vars {"fivetran_log":{"fivetran_log_schema":"fivetran_log_schema","fivetran_log_using_transformations":false,"fivetran_log_using_triggers":true}}
   - name: run asana
     command: dbt run --models asana --vars {"asana_source":{"asana_schema":"just_asana_schema","is_active":true}}
-- name: '02'
-  schedule: 0 0 00 1/1 * ? *
-  steps:
-  - name: run dependencies
-    command: dbt deps
-  - name: run asana
-    command: dbt run --models asana --vars {"asana_source":{"asana_schema":"fivetran_asana1111"}}
