@@ -19,9 +19,3 @@ target-path: target
 clean-targets:
 - target
 - dbt_modules
-vars:
-  vars: &1
-    asana_source:
-      asana_schema: just_asana_schema
-models:
-  vars: *1
