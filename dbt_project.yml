@@ -23,6 +23,10 @@ vars:
   asana_source:
     asana_schema: just_asana_schema
     is_active: true
+  fivetran_log:
+    fivetran_log_schema: fivetran_log_schema
+    fivetran_log_using_transformations: false
+    fivetran_log_using_triggers: true
 models:
   asana_source:
     materialized: table
