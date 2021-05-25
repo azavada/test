@@ -19,4 +19,6 @@ target-path: target
 clean-targets:
 - target
 - dbt_modules
-:hey: bar
+vars:
+  asana_source:
+    asana_schema: just_asana_schema
