@@ -19,3 +19,14 @@ target-path: target
 clean-targets:
 - target
 - dbt_modules
+vars:
+  fivetran_log:
+    fivetran_log_schema: fivetran_log_schema
+    fivetran_log_using_transformations: false
+    fivetran_log_using_triggers: true
+  asana_source:
+    asana_schema: fivetran_asana
+    is_active: true
+models:
+  asana_source:
+    materialized: table1
