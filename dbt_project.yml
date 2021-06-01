@@ -24,7 +24,7 @@ vars:
     asana_schema: just_asana_schema
     is_active: true
   stripe_source:
-    stripe_schema: stripe_schema
+    stripe_schema: stripe_schema_111
     using_invoices: true
     using_payment_method: true
     using_subscriptions: true
