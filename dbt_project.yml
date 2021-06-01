@@ -19,3 +19,19 @@ target-path: target
 clean-targets:
 - target
 - dbt_modules
+vars:
+  asana_source:
+    asana_schema: just_asana_schema
+    is_active: true
+  stripe_source:
+    stripe_schema: stripe_schema
+    using_invoices: true
+    using_payment_method: true
+    using_subscriptions: true
+  fivetran_log:
+    fivetran_log_schema: fivetran_log_schema
+    fivetran_log_using_transformations: false
+    fivetran_log_using_triggers: true
+models:
+  asana_source:
+    materialized: table
