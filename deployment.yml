@@ -9,7 +9,7 @@ jobs:
   - name: run asana
     command: dbt run --models asana --vars '{"asana_source":{"asana_schema":"fivetran_asana","is_active":true}}'
   - name: run stripe
-    command: dbt run --models stripe --vars '{"stripe_source":{"stripe_schema":"stripe_schema","using_invoices":true,"using_payment_method":true,"using_subscriptions":true}}'
+    command: dbt run --models stripe --vars '{"stripe_source":{"stripe_schema":"stripe_schema_111","using_invoices":true,"using_payment_method":true,"using_subscriptions":true}}'
 - name: '01'
   schedule: 0 0/1 * * * ?
   steps:
