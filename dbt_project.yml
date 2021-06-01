@@ -28,6 +28,7 @@ vars:
     using_invoices: true
     using_payment_method: true
     using_subscriptions: true
+  quickbooks_source: {}
   fivetran_log:
     fivetran_log_schema: fivetran_log_schema
     fivetran_log_using_transformations: false
